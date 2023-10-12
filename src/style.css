@@ -1,0 +1,38 @@
+
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+.product{
+
+    padding:3%;
+    box-shadow: 2px 2px 2px 2px #aaa;
+
+}
+
+.products{
+    display:grid;
+    gap:10px;
+}
+
+header{
+    color:white;
+    background-color:black;
+}
+
+
+
+
+.form{
+    width:40%;
+    margin:auto;
+    padding:3%;
+    border:1px solid #eee;
+}
+.form input{
+    display:block;
+    font-size:1.3rem;
+    padding:1%;
+    width:100%;
+}
