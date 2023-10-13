@@ -1,6 +1,7 @@
 import Header from "./header";
 import Products from "./products";
 import { useState } from "react";
+import CreateProd from "./createProd";
 
 function App() {
 
@@ -14,9 +15,17 @@ function App() {
 
 
 
+
+
+
+
     return ( 
         <div>
+            
             <Header></Header>
+
+            <CreateProd setProducts={setProducts}></CreateProd>
+
             <h2>Products</h2>
 
             <Products products={products} setProducts={setProducts}></Products>
